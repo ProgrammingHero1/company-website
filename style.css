@@ -1,0 +1,30 @@
+body{
+    font-family: 'roboto', 'ariel';
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 50px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.color-red{
+    color:rgb(243, 57, 57);
+}
+.text-center{
+    text-align: center;
+}
+.services{
+    display: flex;
+    justify-content: space-evenly;
+}
+.item{
+    width: 25%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px lightgray;
+}
